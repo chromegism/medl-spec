@@ -38,12 +38,18 @@ Map       | `key[map]:`       |
 
 ## 3. Syntax
 **Key-value**: `key[type]: value`
+
 **Keys** must start with an alphabetic character, and can contain alphanumeric or underscore characters. They must not contain whitespace.
+
 **Types** follow the same rule as keys.
+
 **Semicolons** are not accepted as valid.
 
+
 **Lists** start with `- [type]: value`. The number of dashes (`-`) indicates the indentation level, and whitespace between these and the type is ignored.
+
 **Maps** follow the same rules as Key-value pairs, and use dashed, as lists do, to indicate indentation.
+
 
 **Comments** begin with a `#` and span from their beginning to the end of the line
 
