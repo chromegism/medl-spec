@@ -28,15 +28,10 @@ Unordered key-value associations. Keys are always strings, and follow the same n
 Data Type | Example           | Notes
 ----------|-------------------|------
 String    | `"hello"`         |
-----------|-------------------|------
 Int       | `654`             |
-----------|-------------------|------
 Float     | `64.9e-5`         |
-----------|-------------------|------
 Bool      | `true` or `false` |
-----------|-------------------|------
 List      | `key[list]:`      |
-----------|-------------------|------
 Map       | `key[map]:`       | 
 
 
