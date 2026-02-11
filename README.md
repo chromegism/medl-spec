@@ -31,7 +31,7 @@ Data Type | Example           | Notes
 ----------|-------------------|------
 String    | `"hello"`         |
 Int       | `654`             |
-Float     | `64.9e-5`         |
+Float     | `-.964e-5`        |
 Bool      | `true` or `false` |
 List      | `key[list]:`      |
 Map       | `key[map]:`       | 
