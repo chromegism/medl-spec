@@ -33,8 +33,8 @@ String    | `"hello"`         |
 Int       | `654`             |
 Float     | `-.964e-5`        |
 Bool      | `true` or `false` |
-List      | `key[list]:`      |
-Map       | `key[map]:`       | 
+List      | `key[list]:`      | Each line which is to be included in this list must begin with a number of dashes `-` equivalent to the indentation level. Keys are not required, and if included, will be ignored
+Map       | `key[map]:`       | Indentation follows the same pattern as lists, but keys are required.
 
 
 
