@@ -1,8 +1,10 @@
 # medl-spec
 The specification for the MEDL (Minimal Explicit Data Language)... language.
 
+
 ## 1. Introduction
 MEDL is a human-readable, explicity typed data format. Its goal is to represent structured data with the bare minimum of types and syntax: `string`, `int`, `float`, `bool`, `list`, and `map`. No computation or implicit type coercion is allowed.
+
 
 ## 2. Data types
 ### Primitives
@@ -55,12 +57,18 @@ Map       | `key[map]:`       |
 
 **Whitespace** between tokens is ignored, however there must not be whitespace within a key or value, unless it is a string. Entries are ended with new lines.
 
+
 ## 4. Semantics
 **Type annotations** are necessary for all key-value pairs. Missing types will result in a parsing error.
+
 **Type mismatches** will result in a parsing error.
+
 Lists *preserve* order, whereas Maps do not.
+
 Strings are **UTF-8**.
+
 **Empty Lists/Maps** are allowed.
+
 
 ## 5. Example
 ```
